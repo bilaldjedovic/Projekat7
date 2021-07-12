@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Random password</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="pw-container">
+			<div class="pw-header">
+				<div class="pw" id="pw">)!"=&GMNAS()"=()!#ZB
+					<button id="copy">Kopiraj
+					</button>
+				</div>
+			</div>
+			<div class="pw-body">
+				<div class="form-control">
+					<label for="len">Izaberi dužinu šifre</label>
+					<input id=len value="20" type="number" min="4" max="40" />
+				</div>
+				<div class="form-control">
+					<label for="upper">Sadrži velika slova</label>
+					<input id=upper type="checkbox" />
+				</div>
+				<div class="form-control">
+					<label for="lower">Sadrži mala slova</label>
+					<input id=lower type="checkbox" />
+				</div>
+				<div class="form-control">
+					<label for="number">Sadrži brojeve</label>
+					<input id=number type="checkbox" />
+				</div>
+				<div class="form-control">
+					<label for="symbol">Sadrži simbole</label>
+					<input id=symbol type="checkbox" />
+				</div>
+				<button class="generate" id=generate>
+					Generiraj
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
